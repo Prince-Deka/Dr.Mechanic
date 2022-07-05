@@ -1,0 +1,26 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.container{
+
+    margin-top:5%;
+    padding:5% 5%;
+    width: 30%;
+    border: 2px solid red;
+    height:50vh;
+    position:absolute;
+    top:10%;
+    left:10%;
+    background-color: rgb(14, 54, 14);
+    border-radius:30px;
+    border-top-left-radius: 0;
+    
+}
+.LogBox{
+  border:2px solid black;
+ 
+  padding-left: 20%;
+  background-color: whitesmoke;
+}
