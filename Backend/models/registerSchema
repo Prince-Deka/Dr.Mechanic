@@ -1,0 +1,13 @@
+const SchemaMongoose = require('mongoose');
+
+const RegisterSchema = SchemaMongoose.Schema({
+    Name:{type: String},
+    Email:{type: String},
+    Phone:{type: String},
+      Password:{type: String},
+},
+{
+    timestamps: true
+});
+
+module.exports = SchemaMongoose.model('customer_Schema_Collection', RegisterSchema);
